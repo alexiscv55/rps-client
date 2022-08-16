@@ -1,0 +1,41 @@
+{
+  "name": "rps-client",
+  "version": "0.1.0",
+  "description": "swagger client for rps",
+  "author": "Swagger Codegen Contributors",
+  "keywords": [
+    "swagger-client"
+  ],
+  "license": "Unlicense",
+  "peerDependencies": {
+    "@angular/core": "^14.1.0",
+    "@angular/common": "^14.1.0",
+    "@angular/compiler": "^14.1.0",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^7.5.0"
+  },
+  "module": "fesm2015/rps-client.mjs",
+  "es2020": "fesm2020/rps-client.mjs",
+  "esm2020": "esm2020/rps-client.mjs",
+  "fesm2020": "fesm2020/rps-client.mjs",
+  "fesm2015": "fesm2015/rps-client.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/rps-client.mjs",
+      "es2020": "./fesm2020/rps-client.mjs",
+      "es2015": "./fesm2015/rps-client.mjs",
+      "node": "./fesm2015/rps-client.mjs",
+      "default": "./fesm2020/rps-client.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
